@@ -1,0 +1,78 @@
+.mom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+}
+.login_boxmom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:35vw;
+    height:100vh;
+    margin-top:50px;
+}
+.logobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30vw;
+    height: 15vh;
+    color:rgba(0, 100, 255, 1) ;;
+    font-size:2.5vw;
+}
+.input{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:35vw;
+    height:14vh;
+    margin-top:45px;
+    margin-bottom:45px;
+}
+#box{
+    border:1px solid;
+    width:25vw;
+    height:7vh;
+}
+.id_box{
+    border:1px solid;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+.pw_box{
+    border:1px solid;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.login_btn{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size:1.3vw;
+    color:white;
+    border:1px solid;
+    width:30vw;
+    height:7vh;
+    background-color:rgba(0, 100, 255, 1) ;
+    margin:5px;
+
+}
+.login_btn:hover{
+    font-size:1vw;
+}
+.user{
+    margin:20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size:1vw;
+    width:35vw;
+    height:35vh;
+    color:#888;
+}

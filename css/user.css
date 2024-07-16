@@ -1,0 +1,62 @@
+
+* { /* 전체 지정자 */
+    margin:0; /* 기본 마진 없애기 */
+    padding:0; /* 기본 패딩 없애기 */
+    box-sizing: border-box; /* border 사이즈를 지정한 만큼만 지정 */
+    text-decoration: none;
+}
+.href{
+    text-decoration: none;
+    color:#0064FF;
+}
+.container, form {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #0064FF;
+    margin: 13vh 0px 4vh 0px;
+    font-size: 5vh;
+}
+
+.input {
+    width: 28vw;
+    height: 5vh;
+    padding: 1.5vw;
+    border: 0.1vh solid #202632;
+    background-color: white;
+    font-size: 2vh;
+    margin: 0.5vh 0px 1vh 0px;
+}
+
+.submit {
+    width: 32vw;
+    height: 6vh;
+    border: none;
+    background-color: #0064FF;
+    color: white;
+    font-size: 2.5vh;
+    margin: 2vh 0px 2vh 0px;
+}
+.submit:hover{
+    font-size:2vh;
+}
+
+.gotoLogIn {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.5vh;
+}
+a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: underline;
+}
+
+.etc {
+    justify-content: flex-end;
+    font-size: 2vh;
+    color:#888;
+}

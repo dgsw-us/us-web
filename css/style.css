@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mom{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    align-items: center;
+}
+h1{
+    font-family: serif;
+}
+#href{
+    text-decoration: none;
+    color:black;
+}
+#hreflogo{
+    text-decoration: none;
+    color:rgba(0, 100, 255, 1);
+}
+#href:hover{
+    color:rgba(0, 100, 255, 1);
+}
+/*head*/
+.head{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    height: 20vh;
+    margin-top:15px;
+}
+#box1{
+    font-size:1.3vw;
+    width:85vw;
+    height:7vh;
+}
+#box2{
+    font-size:1.3vw;
+    width:80vw;
+    height:7vh;
+}
+.logobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color:rgba(0, 100, 255, 1);
+    font-size:4vw;
+    font-family: serif;
+}
+.btn-boxmom{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 5vh;
+}
+#btn-box{
+    display: flex;
+    align-items: center;
+    width:10vw;
+    height: 5vh;
+}
+.menubar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menu_img{
+    width:2vw;
+    height: 2vw;
+}
+#menu-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width:8vw;
+    height:5vh;
+}
+/*banner*/
+.banner{
+    width: 80vw;
+    height: 30vh;
+    margin-top:15px;
+}
+.img{
+    width:80vw;
+    height:30vh;
+}
+
+/*main*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+}
+.benefit{
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    height:55vh;
+    margin-top:50px;
+}
+.benefit-boxmom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:35vw;
+    height: 5vh;
+    margin-left:105px;
+}
+.benefit-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+    border-radius: 10px;
+    width:8vw;
+    height: 5vh;
+    margin-top:20px;
+}
+.benefit-main{
+    display: flex;
+    flex-direction: row;
+}
+.benefit-mainbox{
+    border:1px solid;
+    border-radius:20px;
+    width:75vw;
+    height:30vh;
+    margin-top:50px;
+    margin-left:70px;
+}
+.life-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:65vw;
+    height:55vh;
+    margin-top:100px;
+}
+.life-infomain{
+    display:flex;
+    flex-direction: column;
+    border:1px solid;
+    width:47vw;
+    height: 42vh;
+    margin-left:130px;
+}
+
+.life-infobox_mom{
+    display: flex;
+    flex-direction: row;;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width:47vw;
+    height:21vh;
+}
+.life-infomain_box{
+    border:1px solid;
+    width: 8vw;
+    height:14vh;
+}
+
+.job{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:65vw;
+    height:55vh;
+    margin-top:100px;
+}
+.job_logo{
+    display: flex;
+    flex-direction: column;
+    border:1px solid;
+    width:65vh;
+    height:10vh;
+}
+.job_main{
+    display: flex;
+    width:65vw;
+    height:22vh;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+}
+.jobmain_box{
+    border:1px solid;
+    border-radius: 50px;
+    width:16vw;
+    height: 22vh;
+}
+.jobfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+    width: 65vw;
+    height:10vh;
+}
+.footer_box{
+    border:1px solid;
+    width:65vw;
+    height:8vh;
+    margin-top:80px;
+    font-size:1.3vw;
+}
+.footer_box:hover{
+    font-size:1vw;
+}
