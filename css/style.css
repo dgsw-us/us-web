@@ -10,8 +10,11 @@
     align-items: center;
 }
 h1{
-    font-family: serif;
+    /* font-family: serif; */
     color:rgba(32, 38, 50, 1)
+}
+h2{
+    color:rgba(0, 100, 255, 1);
 }
 #href{
     text-decoration: none;
@@ -57,7 +60,6 @@ h4{
 .logo{
     color:rgba(0, 100, 255, 1);
     font-size:4vw;
-    font-family: serif;
 }
 .btn-boxmom{
     display: flex;
@@ -205,9 +207,9 @@ h4{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width:65vw;
-    height:55vh;
-    margin-top:100px;
+    width:100vw;
+    height:250vh;
+    padding:50px;
 }
 /* .job_logo{
     display: flex;
@@ -223,30 +225,36 @@ h4{
     border:1px solid;
     justify-content: space-around;
     width:80vw;
-    height:10.5vh;
+    height:15vh;
     background-color: rgba(0, 100, 255, 1);;
-    padding:20px;
-    margin-bottom:120px;
+    margin-bottom:80px;
     color:white;
 }
 .job_main{
     display: flex;
-    width:65vw;
-    height:22vh;
+    width:100vw;
+    height:100vh;
+    flex-direction: column;
+}
+.jobmainbox_wrap{
+    display:flex;
+    justify-content: center;
     flex-direction: row;
-    justify-items: center;
-    justify-content: space-around;
+    width:100vw;
+    height:56vh;
+    margin:45px;
 }
 .jobmain_box{
     display:flex;
     flex-direction:column;
     justify-content: space-around;
     border:1px solid;
-    border-radius: 50px;
-    width:16vw;
-    height: 28vh;
-    /* background-color:rgba(32, 38, 50, 1); */
+    border-radius: 40px;
+    width:32vw;
+    height: 56vh;
+    padding:20px;  
     background-color: white;
+    margin-right:50px;
 }
 #job_text{
     display: flex;
@@ -264,11 +272,11 @@ h4{
 .job_maintext{
     display: flex;
     flex-direction: column;
-    font-size:1vw;
+    font-size:1.2vw;
     color:black;
     width:100%;
     height:40%;
-    padding:10px;
+    padding:30px;
 }
 .job_footertext{
     width:100%;
@@ -288,7 +296,22 @@ h4{
     font-size:1vw;
 }
 .footer{
-    width:100%;
-    height:30%;
-    background-color: black;
+    border:1px solid;
+    width:100vw;
+    height:12vh;
+    background-color:rgba(32, 38, 50, 1);
+    margin-top:300px;
+}
+.footer_logo{
+    display: flex;
+    align-items: end;
+    width:100vw;
+    height:6vh;
+}
+.information{
+    display: flex;
+    align-items: end;
+    color:white;
+    width:100vw;
+    height: 6vh;
 }

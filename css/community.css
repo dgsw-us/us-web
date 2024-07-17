@@ -4,6 +4,17 @@
     box-sizing: border-box; /* border 사이즈를 지정한 만큼만 지정 */
     text-decoration: none;
 }
+#href{
+    text-decoration: none;
+    color:black;
+}
+#href:hover{
+    color:rgba(0, 100, 255, 1);
+}
+#hreflogo{
+    text-decoration: none;
+    color:rgba(0, 100, 255, 1);
+}
 /*head*/
 .head{
     display:flex;
@@ -106,14 +117,14 @@ input[type="radio"] {
 }
 .ad {
     width: 15vw;
-    height: 40vw;
+    height: 65vh;
     background-color: #0064FF;
     margin: 0px 8vh 2vh 0px;
 }
 
 .listBoxs {
     width: 60vw;
-    height: 85vw;
+    height: 65vh;
     border: 0.5px solid #202632;
     border-radius: 2vw;
     overflow-y: auto;
