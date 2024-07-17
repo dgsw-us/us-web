@@ -46,6 +46,11 @@
     font-size:4vw;
     font-family: serif;
 }
+.logo img {
+    width:14vw;
+    height:20vh;
+}
+
 .btn-boxmom{
     display: flex;
     flex-direction: row;
