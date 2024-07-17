@@ -1,0 +1,10 @@
+* { /* 전체 지정자 */
+    margin:0; /* 기본 마진 없애기 */
+    padding:0; /* 기본 패딩 없애기 */
+    box-sizing: border-box; /* border 사이즈를 지정한 만큼만 지정 */
+    text-decoration: none;
+}
+img {
+    width: 100vw;
+    height: 100%;
+}
