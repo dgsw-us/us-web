@@ -1,0 +1,105 @@
+* { /* 전체 지정자 */
+    margin:0; /* 기본 마진 없애기 */
+    padding:0; /* 기본 패딩 없애기 */
+    box-sizing: border-box; /* border 사이즈를 지정한 만큼만 지정 */
+    text-decoration: none;
+}
+/*head*/
+.head{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    height: 20vh;
+    margin-top:15px;
+}
+#box1{
+    font-size:1.3vw;
+    width:85vw;
+    height:7vh;
+}
+#box2{
+    font-size:1.3vw;
+    width:80vw;
+    height:7vh;
+}
+.logobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color:rgba(0, 100, 255, 1);
+    font-size:4vw;
+    font-family: serif;
+}
+.btn-boxmom{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 5vh;
+}
+#btn-box{
+    display: flex;
+    align-items: center;
+    width:10vw;
+    height: 5vh;
+}
+.menubar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menu_img{
+    width:2vw;
+    height: 2vw;
+}
+#menu-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width:8vw;
+    height:5vh;
+}
+/*main*/
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select input {
+    margin: 0px 0px 0px 4vw;
+}
+
+
+.contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.ads {
+    display: flex;
+    flex-direction: column;
+}
+.ad {
+    width: 200px;
+    height: 600px;
+    background-color: aqua;
+    margin: 0px 0px 2vh 0px;
+}
+
+.listBoxs {
+    width: 60vw;
+    height: 1215px;
+    border: 1px solid black;
+    border-radius: 2vw;
+}
+
+.listBox {
+    margin: 1vw;
+}
