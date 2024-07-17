@@ -1,14 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.15/index.global.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.15/index.global.min.js'></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        });
+        calendar.render();
+      });
+    </script>
     <link rel="stylesheet" href="../css/calendar.css">
-</head>
-<body>
-    
-    
-    <script src="../js/calendar.js"></script>
-</body>
+  </head>
+  <body>
+
+    <div class="head">
+    <!-- 로고 -->
+    <div id="box1" class="logobox">
+        <div class="logo"><a href="index.html"><img src="../imgs/logo.png"></a></div>
+        <div class="btn-boxmom">
+            <div id="btn-box"><a href="user.html" id="href">회원가입</a></div>
+            <div id="btn-box"><a href="login.html" id="href">로그인</a></div>
+        </div>
+    </div>
+
+    <div id="box2" class="menubar">
+        <div id="menu-box"><img src="https://cdn-icons-png.flaticon.com/128/724/724715.png" class="menu_img">커뮤니티</div>
+        <div id="menu-box"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968499.png" class="menu_img">캘린더</div>
+        <div id="menu-box"><img src="https://cdn-icons-png.flaticon.com/128/6978/6978197.png" class="menu_img">밥 추천</div>
+        <div id="menu-box"><img src="https://cdn-icons-png.flaticon.com/128/6063/6063734.png" class="menu_img"><a href="profile.html" id="href">내 정보</a></div>
+    </div>
+    </div>
+
+    <div id='calendar'></div>
+    <div class="main">
+        <p class="title">일정 관리</p>
+
+        <div class="schedules">
+            <div class="schedule">
+            <h2>2024. 07. 17</h2>
+            <p>해커톤 시작</p>
+            </div>
+            
+            <div class="schedule">
+            <h2>2024. 07. 18</h2>
+            <p>해커톤 마무리</p>
+            </div>
+
+            <div class="schedule">
+            <h2>2024. 07. 19</h2>
+            <p>방학식</p>
+            </div>
+
+            <div class="schedule">
+            <h2>2024. 07. 21</h2>
+            <p>계곡 가기</p>
+            </div>
+        </div>
+    </div>
+  </body>
 </html>
