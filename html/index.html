@@ -90,15 +90,15 @@
                 </h1>
                 <div class="job_main">
                     <div class="jobmainbox_wrap">
-                        <div class="jobmain_box">
+                        <a href="https://toss.im/team" id="href"><div class="jobmain_box">
                             <div class="job_caption"><h3>신입사원 채용</h3></div>
                             <div class="job_maintext" >
-                                <h3 style="margin-bottom:5px;">김용갈 모터스</h3>
+                                <h3 style="margin-bottom:5px;">toss</h3>
                                 <h3>채용 조건: 본문 상세</h3><br>
                                 <h4>우리 회사는 앱 개발자를 뽑고 있습니다. <br> 자신이 만든 앱을 들고 우리를 찾아오세요.</h4>
                             </div>
                             <div class="job_footertext" id="job_text">대상: 대구시 전역</div>
-                        </div>
+                        </div></a>
                 
                         <div class="jobmain_box">
                             <div class="job_caption"><h3>신입사원 채용</h3></div>
@@ -131,18 +131,27 @@
                             </div>
                             <div class="job_footertext" id="job_text">대상: 강남구</div>
                         </div>
-                    </div>
 
+                    </div>
+                    <div class="plus_view"><a href="#" id="href"><img src="https://cdn-icons-png.flaticon.com/128/9628/9628049.png" style="width:2.5vw;height:2.5vh; margin-left:670px; margin-top:40px;"></a></div>
                 </div>
             </div>
 
             <div class="footer">
                 <div class="footer_logo"><h2>US</h2></div>
-                <div class="information">내용을 넣어야 하지만 이 내용을 무엇을 넣어야할지에 대한 내용이 머릿속에 떠오르지 않아 적어야했던 내용을 떠올리는 내용을 떠올리는 내용이 떠오르지 않는다.</div>
+                <div class="information">김용진 모터스/ 이용약관 / 개인정보처리방침</div>
             </div>
         </div>
     </div>
 
     <script src="../js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        axios.get('http://us.baekjoon.kr/info/list')
+            .then(res => {
+                console.log(res)
+            })
+    </script>
 </body>
 </html>

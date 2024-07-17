@@ -1,0 +1,109 @@
+.head{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    width:100vw;
+    height: 20vh;
+    margin-top:15px;
+}
+p{
+    font-size:1.5vw;
+    margin-left:15px;
+}
+h2{
+    margin-left:30px;
+}
+#href{
+    color:black;
+    text-decoration: none;
+}
+#href:hover{
+
+    color:#0064FF;
+}
+#box1{
+    font-size:1.3vw;
+    width:95vw;
+    height:7vh;
+    margin-left:50px;
+}
+#box2{
+    font-size:1.3vw;
+    width:55vw;
+    height:7vh;
+}
+.logobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width:14vw;
+    height:20vh;
+}
+
+.btn-boxmom{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 5vh;
+}
+#btn-box{
+    display: flex;
+    align-items: center;
+    width:8vw;
+    height: 5vh;
+}
+.menubar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menu_img{
+    width:2vw;
+    height: 2vw;
+}
+#menu-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width:8vw;
+    height:5vh;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+    width: 100vw;
+    height:100vh;
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    width:60vw;
+    height:75vh;
+    border: 1px solid;
+    background-color: rgba(225, 225, 225, 1);
+    
+}
+.headtext{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:18vh;
+}
+.box_main{
+    border:1px solid;
+    width:93%;
+    height:50vh;
+    margin:30px;
+    background-color: rgba(164, 164, 164, 1);
+}

@@ -221,13 +221,6 @@ h4{
     height:250vh;
 
 }
-/* .job_logo{
-    display: flex;
-    flex-direction: column;
-    border:1px solid;
-    width:65vh;
-    height:10vh;
-} */
 
 .job_banner{
     display: flex;
@@ -259,12 +252,15 @@ h4{
     flex-direction:column;
     justify-content: space-around;
     border-radius:35px;
-    /* border:1px solid;   */
     box-shadow:5px 10px 25px 10px rgb(245, 245, 245);
     width:32vw;
     height: 56vh;
     padding:20px;  
     margin-right:50px;
+}
+.jobmain_box:hover{
+    width:34vw;
+    height:58vh;
 }
 #job_text{
     display: flex;
@@ -319,6 +315,7 @@ h4{
     align-items: end;
     width:100vw;
     height:15vh;
+    margin-left:20px;
 }
 .information{
     display: flex;
@@ -326,4 +323,11 @@ h4{
     color:white;
     width:100vw;
     height: 15vh;
+    margin-left:20px;
+}
+.plus_view{
+    display: flex;
+    justify-content: center;
+    width:100vh;
+    height:10vh;
 }
