@@ -57,10 +57,6 @@ h4{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    color:rgba(0, 100, 255, 1);
-    font-size:4vw;
-}
 .btn-boxmom{
     display: flex;
     flex-direction: row;
@@ -100,14 +96,18 @@ h4{
     flex-direction: column;
     width: 80vw;
     height: 30vh;
-    margin-top:35px;
-    margin-bottom: 40px;; 
+    margin-top:50px;
+    margin-bottom:150px;
 }
 
 
 .img{
     width:80vw;
     height:35vh;
+}
+.img2{
+    width:14vw;
+    height:15vh;
 }
 
 
@@ -125,7 +125,7 @@ h4{
     flex-direction: column;
     width:80vw;
     height:55vh;
-    margin-top:50px;
+    margin-bottom:300px;
 }
 .benefit-box{
     display: flex;
@@ -135,7 +135,6 @@ h4{
     border-radius: 10px;
     width:8vw;
     height: 5vh;
-    margin-top:20px;
 }
 .benefit-main{
     display: flex;
@@ -146,15 +145,13 @@ h4{
 .benefit-mainbox{
     display: flex;
     flex-direction: column;
-    border:1px solid;
+    box-shadow:5px 10px 25px 10px rgb(245, 245, 245);
     border-radius:20px;
     width:75vw;
-    height:30vh;
-    margin-top:50px;
+    height:42vh;
     margin-left:70px;
     overflow-y:auto;
     overflow-x:hidden;
-    background-color: whitesmoke;
 }
 .text-box{
     display: flex;
@@ -171,9 +168,8 @@ h4{
     flex-direction: column;
     align-items: center;
     width:100vw;
-    height:75vh;
-    margin-top:300px;
-    margin-bottom: 250px;
+    height:100vh;
+    margin-bottom:250px;
     background-color: rgba(244, 244, 244, 0.9608);
 }
 .life-infomain{
@@ -211,7 +207,6 @@ h4{
     width:100vw;
     height:250vh;
 
-
 }
 /* .job_logo{
     display: flex;
@@ -229,8 +224,8 @@ h4{
     width:80vw;
     height:15vh;
     background-color: rgba(0, 100, 255, 1);;
-    margin-bottom:80px;
     color:white;
+    margin-bottom:60px;
 }
 .job_main{
     display: flex;
