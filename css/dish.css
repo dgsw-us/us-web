@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mom{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    align-items: center;
+}
+h1{
+    /* font-family: serif; */
+    color:rgba(32, 38, 50, 1)
+}
+h2{
+    color:rgba(0, 100, 255, 1);
+}
+#href{
+    text-decoration: none;
+    color:black;
+}
+#hreflogo{
+    text-decoration: none;
+    color:rgba(0, 100, 255, 1);
+}
+#href:hover{
+    color:rgba(0, 100, 255, 1);
+}
+h4{
+    color:#888;
+    margin-bottom: 40px;
+}
+
+/*head*/
+.head{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    width:100vw;
+    height: 20vh;
+    margin-top:15px;
+}
+#box1{
+    font-size:1.3vw;
+    width:95vw;
+    height:7vh;
+    margin-left:50px;
+}
+#box2{
+    font-size:1.3vw;
+    width:55vw;
+    height:7vh;
+}
+.logobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color:rgba(0, 100, 255, 1);
+    font-size:4vw;
+}
+.btn-boxmom{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 5vh;
+}
+#btn-box{
+    display: flex;
+    align-items: center;
+    width:8vw;
+    height: 5vh;
+}
+.menubar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menu_img{
+    width:2vw;
+    height: 2vw;
+}
+#menu-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width:8vw;
+    height:5vh;
+}
+
+/*main*/
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.randomBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34vw;
+    height: 30vw;
+    border: 1px solid black;
+    margin: 1vw 0vw;
+}
+#dishName {
+    font-size: 10vw;
+}
+button {
+    width: 8vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    background-color: #0064FF;
+    border: none;
+    border-radius: 0.2vw;
+    color: white;
+}
