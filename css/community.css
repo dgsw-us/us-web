@@ -40,11 +40,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    color:rgba(0, 100, 255, 1);
-    font-size:4vw;
-    font-family: serif;
-}
+
 .logo img {
     width:14vw;
     height:20vh;

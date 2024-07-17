@@ -41,11 +41,11 @@ h4{
 }
 .search_img{
     position: absolute;
-    margin-right: 450px;
+    margin-right: 445px;
     width:2.5vw;
     height:4vh;
-}
 
+}
 
 .main{
     display: flex;

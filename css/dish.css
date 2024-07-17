@@ -2,19 +2,15 @@
     margin:0;
     padding:0;
 }
-.mom{
-    display: flex;
+
+/*head*/
+.head{
+    display:flex;
     flex-direction: column;
+    align-items: start;
     width:100vw;
-    height: 100vh;
-    align-items: center;
-}
-h1{
-    /* font-family: serif; */
-    color:rgba(32, 38, 50, 1)
-}
-h2{
-    color:rgba(0, 100, 255, 1);
+    height: 20vh;
+    margin-top:15px;
 }
 #href{
     text-decoration: none;
@@ -26,20 +22,6 @@ h2{
 }
 #href:hover{
     color:rgba(0, 100, 255, 1);
-}
-h4{
-    color:#888;
-    margin-bottom: 40px;
-}
-
-/*head*/
-.head{
-    display:flex;
-    flex-direction: column;
-    align-items: start;
-    width:100vw;
-    height: 20vh;
-    margin-top:15px;
 }
 #box1{
     font-size:1.3vw;
@@ -58,9 +40,9 @@ h4{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    color:rgba(0, 100, 255, 1);
-    font-size:4vw;
+.logo img {
+    width:14vw;
+    height:20vh;
 }
 .btn-boxmom{
     display: flex;
