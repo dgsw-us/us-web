@@ -8,19 +8,20 @@
 .head{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     width:100vw;
     height: 20vh;
     margin-top:15px;
 }
 #box1{
     font-size:1.3vw;
-    width:85vw;
+    width:95vw;
     height:7vh;
+    margin-left:50px;
 }
 #box2{
     font-size:1.3vw;
-    width:80vw;
+    width:55vw;
     height:7vh;
 }
 .logobox{
@@ -43,7 +44,7 @@
 #btn-box{
     display: flex;
     align-items: center;
-    width:10vw;
+    width:8vw;
     height: 5vh;
 }
 .menubar{
@@ -65,6 +66,7 @@
     width:8vw;
     height:5vh;
 }
+
 /*main*/
 .main {
     display: flex;
@@ -72,8 +74,24 @@
     align-items: center;
 }
 
+.select {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin: 4vh 0px;
+}
+select {
+    width: 8vw;
+    height: 1.5vw;
+    font-size: 1vw;
+    text-align: center;
+}
 .select input {
     margin: 0px 0px 0px 4vw;
+}
+input[type="radio"] {
+    width: 1.2vw;
+    height: 1.2vw;
 }
 
 
@@ -87,19 +105,32 @@
     flex-direction: column;
 }
 .ad {
-    width: 200px;
-    height: 600px;
-    background-color: aqua;
-    margin: 0px 0px 2vh 0px;
+    width: 15vw;
+    height: 40vw;
+    background-color: #0064FF;
+    margin: 0px 8vh 2vh 0px;
 }
 
 .listBoxs {
     width: 60vw;
-    height: 1215px;
-    border: 1px solid black;
+    height: 85vw;
+    border: 0.5px solid #202632;
     border-radius: 2vw;
+    overflow-y: auto;
+}
+
+.title {
+    font-size: 1.5vw;
 }
 
 .listBox {
-    margin: 1vw;
+    margin: 2vw;
+    padding: 1vw;
+    font-size: 1vw;
+    border-bottom: 0.5px solid #202632;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
 }
