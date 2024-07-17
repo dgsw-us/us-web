@@ -23,23 +23,28 @@ h1{
 #href:hover{
     color:rgba(0, 100, 255, 1);
 }
+h4{
+    color:#888;
+    margin-bottom: 40px;
+}
 /*head*/
 .head{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     width:100vw;
     height: 20vh;
     margin-top:15px;
 }
 #box1{
     font-size:1.3vw;
-    width:85vw;
+    width:95vw;
     height:7vh;
+    margin-left:50px;
 }
 #box2{
     font-size:1.3vw;
-    width:80vw;
+    width:55vw;
     height:7vh;
 }
 .logobox{
@@ -62,7 +67,7 @@ h1{
 #btn-box{
     display: flex;
     align-items: center;
-    width:10vw;
+    width:8vw;
     height: 5vh;
 }
 .menubar{
@@ -84,16 +89,24 @@ h1{
     width:8vw;
     height:5vh;
 }
+
 /*banner*/
 .banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 80vw;
     height: 30vh;
-    margin-top:15px;
+    margin-top:35px;
+    margin-bottom: 40px;; 
 }
+
+
 .img{
     width:80vw;
-    height:30vh;
+    height:35vh;
 }
+
 
 /*main*/
 
@@ -111,14 +124,6 @@ h1{
     height:55vh;
     margin-top:50px;
 }
-.benefit-boxmom{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width:35vw;
-    height: 5vh;
-    margin-left:105px;
-}
 .benefit-box{
     display: flex;
     justify-content: center;
@@ -132,30 +137,47 @@ h1{
 .benefit-main{
     display: flex;
     flex-direction: row;
+    width:75vw;
+    height:40vh;
 }
 .benefit-mainbox{
+    display: flex;
+    flex-direction: column;
     border:1px solid;
     border-radius:20px;
     width:75vw;
     height:30vh;
     margin-top:50px;
     margin-left:70px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    background-color: whitesmoke;
+}
+.text-box{
+    display: flex;
+    align-items: center;
+    width:75vw;
+    height:10vh;
+    font-size:1.5vw;
+    margin-left:35px;
+    padding:15px;
+
 }
 .life-info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width:65vw;
+    align-items: center;
+    width:100vw;
     height:55vh;
     margin-top:100px;
+    margin-bottom: 150px;
 }
 .life-infomain{
     display:flex;
     flex-direction: column;
-    border:1px solid;
-    width:47vw;
-    height: 42vh;
-    margin-left:130px;
+    justify-content: center;
+    width:85vw;
+    height: 62vh;
 }
 
 .life-infobox_mom{
@@ -164,13 +186,18 @@ h1{
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    width:47vw;
-    height:21vh;
+    width:85vw;
+    height:31vh;
 }
 .life-infomain_box{
     border:1px solid;
-    width: 8vw;
-    height:14vh;
+    border-radius: 40px;
+    width: 17vw;
+    height:28vh;
+}
+.life-infomain_box:hover{
+    width:16vw;
+    height: 26vh;
 }
 
 .job{
@@ -181,12 +208,25 @@ h1{
     height:55vh;
     margin-top:100px;
 }
-.job_logo{
+/* .job_logo{
     display: flex;
     flex-direction: column;
     border:1px solid;
     width:65vh;
     height:10vh;
+} */
+
+.job_banner{
+    display: flex;
+    align-items: center;
+    border:1px solid;
+    justify-content: space-around;
+    width:80vw;
+    height:10.5vh;
+    background-color: rgba(0, 100, 255, 1);
+    padding:20px;
+    margin-bottom:150px;
+    color:white;
 }
 .job_main{
     display: flex;
@@ -210,12 +250,15 @@ h1{
     width: 65vw;
     height:10vh;
 }
+/*footer*/
 .footer_box{
     border:1px solid;
     width:65vw;
     height:8vh;
     margin-top:80px;
     font-size:1.3vw;
+    background-color:rgba(0, 100, 255, 1);
+    color:white;
 }
 .footer_box:hover{
     font-size:1vw;
