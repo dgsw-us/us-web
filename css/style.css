@@ -11,6 +11,7 @@
 }
 h1{
     font-family: serif;
+    color:rgba(32, 38, 50, 1)
 }
 #href{
     text-decoration: none;
@@ -223,9 +224,9 @@ h4{
     justify-content: space-around;
     width:80vw;
     height:10.5vh;
-    background-color: rgba(0, 100, 255, 1);
+    background-color: rgba(0, 100, 255, 1);;
     padding:20px;
-    margin-bottom:150px;
+    margin-bottom:120px;
     color:white;
 }
 .job_main{
@@ -237,10 +238,41 @@ h4{
     justify-content: space-around;
 }
 .jobmain_box{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
     border:1px solid;
     border-radius: 50px;
     width:16vw;
-    height: 22vh;
+    height: 28vh;
+    /* background-color:rgba(32, 38, 50, 1); */
+    background-color: white;
+}
+#job_text{
+    display: flex;
+    align-items: center;
+    color:black;
+    margin-left:20px;
+}
+.job_caption{
+    display: flex;
+    justify-content:center;
+    color:#888;
+    width:100%;
+    height:10%;
+}
+.job_maintext{
+    display: flex;
+    flex-direction: column;
+    font-size:1vw;
+    color:black;
+    width:100%;
+    height:40%;
+    padding:10px;
+}
+.job_footertext{
+    width:100%;
+    height:10%;
 }
 .jobfooter{
     display: flex;
@@ -251,15 +283,12 @@ h4{
     height:10vh;
 }
 /*footer*/
-.footer_box{
-    border:1px solid;
-    width:65vw;
-    height:8vh;
-    margin-top:80px;
-    font-size:1.3vw;
-    background-color:rgba(0, 100, 255, 1);
-    color:white;
-}
+
 .footer_box:hover{
     font-size:1vw;
+}
+.footer{
+    width:100%;
+    height:30%;
+    background-color: black;
 }
